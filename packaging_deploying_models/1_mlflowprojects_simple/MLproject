@@ -1,0 +1,15 @@
+name: 1_creating_a_simple_pipeline
+
+conda_env: config/conda_env.yaml
+#OR docker_env
+
+entry_points:
+  main:
+    parameters:
+      data_file: data/iris.csv
+      regularization: {type: float, default: 0.1}
+    command: "python src/train.py --data_file {data_file} --regularization {regularization} "
+  validate:
+    parameters:
+      data_file: data/iris.csv
+    command: "python src/validate.py --data_file {data_file}"
