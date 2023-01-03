@@ -1,7 +1,9 @@
-''' This program creates two runs with different learning rates, 
+'''
+This program creates two runs with different learning rates, 
 trains and evaluates a model with those learning rates, 
 and logs the evaluation results and the trained model as artifacts. 
-The results of the two runs can be compared in the MLFlow UI. '''
+The results of the two runs can be compared in the MLFlow UI.
+'''
 
 import mlflow
 import tensorflow as tf

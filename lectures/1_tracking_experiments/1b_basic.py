@@ -1,9 +1,11 @@
-'''The second and third files show how to log model artifacts, 
+'''
+The second and third files (1a/1b) show how to log model artifacts, 
 which is an important aspect of experiment tracking as it allows 
 you to save and retrieve the models that you've trained. 
-It's also good that you've demonstrated two different ways to 
+I've also demonstrated two different ways to 
 log model artifacts (with mlflow.sklearn.log_model and by saving 
-the model object as a pickle file and logging it as an artifact).'''
+the model object as a pickle file and logging it as an artifact).
+'''
 
 import mlflow
 import pickle

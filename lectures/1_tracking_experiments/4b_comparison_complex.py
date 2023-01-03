@@ -1,10 +1,12 @@
-'''This script trains and evaluates a convolutional neural network (CNN) on the MNIST dataset 
+'''
+This script trains and evaluates a convolutional neural network (CNN) on the MNIST dataset 
 using TensorFlow and logs the evaluation results and trained model as artifacts using MLFlow. 
 The script compares the performance of the CNN when trained using three different 
 learning rates, 0.01, 0.001, and 0.0001. For each learning rate, the script creates a new run 
 in the "comparison-experiment" experiment, compiles the model with the corresponding learning rate, 
 trains the model for 5 epochs, evaluates the model on the test set, logs the evaluation results, 
-and saves the trained model as an artifact.'''
+and saves the trained model as an artifact.
+'''
 
 import mlflow
 import tensorflow as tf

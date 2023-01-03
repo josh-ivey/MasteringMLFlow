@@ -1,6 +1,5 @@
 import mlflow
 
-
 # Create an experiment
 mlflow.set_experiment("custom-experiment")
 # Start a new run

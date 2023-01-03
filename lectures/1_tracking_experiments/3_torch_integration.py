@@ -96,5 +96,6 @@ with mlflow.start_run():
             mlflow.log_metric("test_loss", loss.item())
             mlflow.log_metric("test_accuracy", (outputs.argmax(dim=1) == labels).float().mean())
 
+
     # Save the model as an artifact
     mlflow.pytorch.log_model(model, "model")

@@ -1,4 +1,4 @@
-'''In the first file, you've demonstrated how to set up an experiment 
+'''In the first file, I've demonstrated how to set up an experiment 
 and log a parameter and metric. This is a good start for introducing 
 experiment tracking with MLFlow.'''
 
